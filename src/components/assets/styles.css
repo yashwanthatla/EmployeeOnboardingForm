@@ -1,0 +1,82 @@
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #007bff;
+    color: #ffffff;
+  }
+  
+  .header-text {
+    font-size: 24px;
+  }
+  
+  .sub-text {
+    font-size: 14px;
+  }
+  
+  .nav-buttons {
+    display: flex;
+  }
+  
+  .nav-button {
+    margin-right: 10px;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    color: #007bff;
+    border: 2px solid #007bff;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .nav-button:hover {
+    background-color: #007bff;
+    color: #ffffff;
+  }
+  
+  .save-reset-buttons {
+    display: flex;
+  }
+  
+  .save-button,
+  .reset-button {
+    margin-left: 20px;
+    padding: 15px 30px;
+    background-color: #28a745;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+  }
+  
+  .reset-button {
+    background-color: #dc3545;
+  }
+  
+  .save-button:hover,
+  .reset-button:hover {
+    opacity: 0.8;
+  }
+  
+  /* Personal and Document Pages */
+  .page-container {
+    padding: 20px;
+  }
+  
+  .image-container {
+    width: 50%;
+  }
+  
+  .image-container img {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Form Field */
+  .form-field {
+    margin-bottom: 20px;
+  }
+  
+  /* Add more styles as needed */
+  
