@@ -6,11 +6,12 @@ import DocumentsPage from './components/DocumentsPage';
 const App = () => {
   const [currentPage, setCurrentPage] = useState('Personal');
 
+
   return (
     <div>
-      <Header currentPage={currentPage} onChangePage={setCurrentPage} />
+      <Header currentPage={currentPage} onChangePage={setCurrentPage}/>
       {currentPage === 'Personal' && <PersonalPage />}
-      {currentPage === 'Documents' && <DocumentsPage />}
+      {currentPage === 'Documents' && <DocumentsPage/>}
     </div>
   );
 };
