@@ -10,7 +10,7 @@ const PersonalPage = () => {
     gender: '',
     phoneNumber: '',
     notificationPreferences: [],
-    office: 'Office XYZ', // Example value, change as needed
+    office: '', 
     team: '',
   });
 
@@ -33,7 +33,6 @@ const PersonalPage = () => {
   };
 
   const handleSave = () => {
-    // Save data logic goes here
     alert('Employee details saved successfully!');
   };
 
@@ -45,7 +44,7 @@ const PersonalPage = () => {
       gender: '',
       phoneNumber: '',
       notificationPreferences: [],
-      office: 'Office XYZ', // Example value, change as needed
+      office: '', 
       team: '',
     });
     alert('Information reset successfully!');
